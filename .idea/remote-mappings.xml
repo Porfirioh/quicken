@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="php@ac0f828b-8515-4cf4-9a88-bafaa7fa3a6d">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/quicken" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
