@@ -17,11 +17,11 @@ symbols = {
     'GB00BV9FRD45': 'GB00BV9FRD45:GBX',
     'GB00BV9FRG75': 'GB00BV9FRG75:GBX',
     'GB00BYM58175': 'GB00BYM58175:GBX',
-    'GB00BD6DNV57': 'GB00BD6DNV57:GBX'
+    'GB00BD6DNV57': 'GB00BD6DNV57:GBP'
 }
 
 now = datetime.datetime.now()
-print("E\:{0}.txt".format(now.strftime("%Y-%m-%d")))
+print("E\\:{0}.txt".format(now.strftime("%Y-%m-%d")))
 
 filename = "/Users/simonlewis/Code/quicken/prices/{0}.txt".format(now.strftime("%Y-%m-%d"))
 price_file = open(filename, 'w')
