@@ -3,7 +3,7 @@ import requests
 import time
 import datetime
 
-ft_format = '%A, %B %d, %Y';
+ft_format = '%A, %B %d, %Y'
 
 symbols = {
     'EME': 'GB0007906794:GBX',
@@ -21,7 +21,7 @@ symbols = {
 }
 
 now = datetime.datetime.now()
-print("E\\:{0}.txt".format(now.strftime("%Y-%m-%d")))
+print("P\\:{0}.txt".format(now.strftime("%Y-%m-%d")))
 
 filename = "/Users/simonlewis/Code/quicken/prices/{0}.txt".format(now.strftime("%Y-%m-%d"))
 price_file = open(filename, 'w')

@@ -1,0 +1,1 @@
+This is a placeholder to kep the prices directory
